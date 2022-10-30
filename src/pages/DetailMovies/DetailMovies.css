@@ -1,0 +1,73 @@
+.hijo-detail-series {
+    display: flex;
+}
+
+.detailseriessinopsis-container{
+    width: 60%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    color: white;
+    margin: 4% 3%;
+}
+
+.detailseriessinopsis-container h3{
+    text-transform: uppercase;
+}
+
+.boton-favoritos {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 0px 0px 25px;
+    color: #007aff;
+    width: 180px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.detail-favoritos{
+    margin-top: 10px;
+    width: 230px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #007aff;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.movie {
+    margin: 30px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.detail-favoritos h3{
+    margin: 0px 0px 0px 6px;
+    color: white; 
+}
+
+.detail-favoritos i{
+    margin:2%;
+    color: white;
+} 
+
+.detail-favoritos a{
+    text-decoration: none;
+}
+
+
+.fav{
+    background-color: #007aff;
+    border-style: none;
+    color:white;
+}
+
+#star{
+    color:yellow;
+}
+

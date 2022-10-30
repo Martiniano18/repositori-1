@@ -1,0 +1,62 @@
+body header{
+    background-color: #600e0e;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 125px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: white;  
+    margin-top: 5px;
+    padding: 10px 30px;
+    background-color:#4b0a0a;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+.header-busqueda {
+    display: flex;
+    align-items: center;   
+}
+
+.burguermenu{ 
+    margin-top: 6.5%;
+    display: none;
+}
+
+/* .header-busqueda input {
+    border:none;  
+    background-color: #007aff;
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-top: 30px;  
+} */
+
+
+::placeholder{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;   
+}
+
+/* header{
+    background-image: url(../img/fondoclaro.jpg); 
+    max-width: 100%;
+} */
+
+.logo {
+    max-width: 100%;
+    max-height: 135px; 
+    padding-bottom: 2px; 
+} 
+
+
+.header-nav{
+    padding: 40px 0px 0px 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
